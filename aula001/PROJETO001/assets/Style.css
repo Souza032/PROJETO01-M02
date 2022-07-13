@@ -11,7 +11,6 @@
 
     color: blue;
     margin: .6rem;
-    display: flex;
     align-items: center;
     background-color: rgb(0, 0, 0);
 }
@@ -20,13 +19,21 @@
     margin: .2rem;
     margin-left: 0%;
     color: rgb(0, 0, 0);
-    display: flex;
     cursor: pointer;
     width: 100%;
     background-color: #00f7ff;
     padding: 1px ;
     text-align: end;
-    justify-content: end;
+ 
+   
+}
+
+#ims{
+display: flex;
+align-items: flex-start;
+margin: 1rem;
+
+
 }
 
 
@@ -38,6 +45,7 @@ ul
     border: .1px solid rgba(0, 0, 0, 0.125);
     display: flex;
     align-items: center;
+    justify-content: end;
  
 }
 ul:hover
@@ -47,12 +55,19 @@ ul:hover
 
 }
 
+#NAV{
+    justify-content: end;
+    display: flex;
+
+
+
+}
 
 #img
 {
     display: flex;
     justify-content: flex-start;
-
+    padding-left: 1rem;
 }
 #titulo {
     margin-top: 5rem;
@@ -69,5 +84,96 @@ ul:hover
 {
     background-color:  #00f7ff;
     color: rgb(0, 0, 0);
+
+}
+header{
+
+    align-items: center;
+    display: flex;
+    margin: 5rem;
+}
+
+
+section#SOBRE{
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 3rem;
+}
+
+
+#img2 {
+
+    width: 500px;
+    padding-right: 100px;
+}
+h3{ display: flex;
+    color: #ffffff;
+    padding-left: 15rem;
+    justify-content: end;
+   
+}
+
+
+
+h2{
+
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+}
+section#Contato{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    flex-direction: column;
+    width: 50px;
+  padding: 100px;
+    background-color: #00f7ff;
+    border: 5rem ;
+    border-color: black;
+}
+
+#ctt{
+padding-top: 2rem;
+    color: black;
+}
+
+.cards:hover 
+{
+    background-color:  #c5c1c150;
+    border: .1px solid #00f7ff;
+    border-style: solid;
+    border-radius: 10%;
+}
+#espaço{
+
+    padding: 5rem;
+}
+
+#trabalhos{
+
+   padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+.tabs{
+
+    padding: 25px;
+    margin: 25px;
+    width: 500px;
+    height: 500px;
+    background-color: #00f7ff;
+
 
 }
