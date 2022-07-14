@@ -177,3 +177,195 @@ padding-top: 2rem;
 
 
 }
+
+.p1{
+    justify-content: center;
+    color: #ffffff;
+  padding-top: 50px;
+text-align: center;
+padding-bottom: 25px;
+}
+
+.p2{
+    color: #ffffff;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #04040490;
+
+
+
+}
+
+#Skills{
+padding: 2rem;
+background-color: #00f7ff;
+display: flex;
+justify-content: center;
+align-items: center;
+border: .15px solid #ffffff;
+
+
+}
+.skilaa{
+display: flex;
+    margin: 1rem;
+    padding: 50px;
+    justify-content: baseline;
+    border: 1rem solid #ffffff;
+    border-radius: 15px;
+   
+}
+
+footer{
+
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    text-decoration: none;
+    color: #ffffff;
+}
+#foo{
+ text-decoration: none;
+color: #ffffff;
+
+}
+
+#foo:hover{
+color:  #00f7ff;
+
+
+}
+
+
+@media (max-width: 600px){
+
+    
+*{
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+   
+    padding: 0;
+    margin: 0;
+  
+    
+}
+
+
+#titulo{
+ width: 30%;
+
+
+}
+
+#header{
+    margin: 0;
+    padding: 0;
+}
+
+#img2{
+width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+
+#Contato{
+
+
+    width: 50%;
+}
+
+#trabalhos{
+
+width: 90%;
+margin: 0 0 0 5;
+
+justify-content: center;
+
+}
+
+#Skills{
+    padding: 0;
+
+    width: 20%;
+}
+
+#footer{
+justify-content: end;
+    width: 50%;
+    align-items: center;
+    display: flex;
+}}
+
+
+@media (max-width: 1024px){
+
+    
+    *{
+        display: flex;
+        align-items: center;
+     flex-wrap: wrap;
+        justify-content: center;
+        
+      
+        
+    }
+    
+    
+    #titulo{
+     width: 70%;
+    
+    
+    }
+    
+    #header{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #img2{
+    width: 200px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    #Contato{
+    
+    
+        width: 100%;
+    }
+    
+    #trabalhos{
+    
+    width: 90%;
+    margin: 0 0 0 5;
+    
+    justify-content: center;
+    
+    }
+    
+    #Skills{
+        display: flex;
+    
+        width: 100%;
+    }
+
+    #espaço{
+        display: none;
+    }
+    
+    #footer{
+   
+        width: 100%;
+        align-items: center;
+        display: flex;
+    }
+
+
+
+
+
+}
